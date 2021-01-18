@@ -1,0 +1,135 @@
+{
+  "type": ["object"],
+  "properties": {
+    "id": {
+      "type": ["null","integer"]
+    },
+    "first_name": {
+      "type": ["null","string"] 
+    },
+    "last_name": {
+      "type": ["null","string"] 
+    },
+    "email": {
+      "type": ["null","string"] 
+    },
+    "gender": {
+      "type": ["null","string"] 
+    },
+    "phone_area": {
+      "type": ["null","string"] 
+    },
+    "phone": {
+      "type": ["null","string"] 
+    },
+    "cpf": {
+      "type": ["null","string"] 
+    },
+    "cnpj": {
+      "type": ["null","string"] 
+    },
+    "ie": {
+      "type": ["null","string"] 
+    },
+    "tags": {
+      "type": ["null","string"] 
+    },
+    "facebook_uid": {
+      "type": ["null","string"] 
+    },
+    "liked_facebook_page": {
+      "type": ["null","boolean"] 
+    },
+    "updated_at": {
+      "type": ["null","string"],
+      "format": "date-time"
+    },
+    "birthdate": {
+      "type": ["null","string"],
+      "format": "date"
+    },
+    "recent_address": {
+      "type": ["null","object"],
+      "properties": {
+        "id": {
+          "type": ["null","string"] 
+        },
+        "first_name": {
+          "type": ["null","string"] 
+        },
+        "last_name": {
+          "type": ["null","string"] 
+        },
+        "company_name": {
+          "type": ["null","string"] 
+        },
+        "street_name": {
+          "type": ["null","string"] 
+        },
+        "street_number": {
+          "type": ["null","string"] 
+        },
+        "neighborhood": {
+          "type": ["null","string"] 
+        },
+        "complement": {
+          "type": ["null","string"] 
+        },
+        "reference": {
+          "type": ["null","string"] 
+        },
+        "city": {
+          "type": ["null","string"] 
+        },
+        "state": {
+          "type": ["null","string"] 
+        },
+        "zip": {
+          "type": ["null","string"] 
+        },
+        "first_phone_area": {
+          "type": ["null","string"] 
+        },
+        "first_phone": {
+          "type": ["null","string"] 
+        },
+        "second_phone_area": {
+          "type": ["null","string"] 
+        },
+        "second_phone": {
+          "type": ["null","string"] 
+        },
+        "email": {
+          "type": ["null","string"] 
+        },
+        "documents": {
+          "type": ["null","object"],
+          "properties": {
+            "cpf": {
+              "type": ["null","string"] 
+            },
+            "cnpj": {
+              "type": ["null","string"] 
+            }
+          }
+        }
+      }
+    },
+    "auth_token": {
+      "type": ["null","string"] 
+    },
+    "last_confirmed_order_at": {
+      "type": ["null","string"],
+      "format": "date-time"
+    },
+    "received_orders_count": {
+      "type": ["null","integer"]
+    },
+    "confirmed_orders_count": {
+      "type": ["null","integer"]
+    },
+    "canceled_orders_count": {
+      "type": ["null","integer"]
+    }
+  }
+}

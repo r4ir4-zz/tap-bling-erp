@@ -1,0 +1,473 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "cart_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "token": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "status": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "deposit": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "card": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "slip": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "slip_url": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "slip_token": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "payment_method": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "payment_tid": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "shipping_price": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "shipping_label": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "delivery_type": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "subtotal": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "discount_price": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "taxes": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "total": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "tracking_code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "tracking_code_list": {
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            }, 
+            "type": [
+                "null",
+                "array"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "received_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "confirmed_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "shipped_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "shipping_tracked_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "delivered_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "canceled_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "installments": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "card_number": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "extra": {
+            "properties": {
+                "_ga": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "handling_days": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            },
+            "type": [
+                "null",
+                "object"
+            ]
+        },
+        "email": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "delivery_days": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "card_validity": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "browser_ip": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "slip_due_date": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "paid_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "payment_gateway": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "expected_delivery_date": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "agent": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "channel": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "coupon_code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "affiliate_tag": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "payment_authorization": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "user_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "user_code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "delivery_message": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "rebate_token": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "rebate_discount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "items": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "variant_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "quantity": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "price": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "total": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "weight": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "width": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "height": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "length": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "extra": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "picture_url": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "reference": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "sku": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "product_name": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "variant_name": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "package": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "product_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "original_price": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "place_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "place_name": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "place_city": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
