@@ -1,4 +1,4 @@
-# tap-vnda-ecommerce
+# tap-bling-erp
 
 This is a [Singer](https://singer.io) tap that produces JSON-formatted data
 following the [Singer
