@@ -2,13 +2,13 @@
 from setuptools import setup
 
 setup(
-    name="tap-vnda-ecommerce",
+    name="tap-bling-erp",
     version="0.1.0",
     description="Singer.io tap for extracting data",
-    author="Stitch",
-    url="http://singer.io",
+    author="Raira",
+    url="https://github.com/r4ir4",
     classifiers=["Programming Language :: Python :: 3 :: Only"],
-    py_modules=["tap_vnda_ecommerce"],
+    py_modules=["tap_bling_erp"],
     install_requires=[
         # NB: Pin these to a more specific version for tap reliability
         "singer-python",
@@ -16,11 +16,11 @@ setup(
     ],
     entry_points="""
     [console_scripts]
-    tap-vnda-ecommerce=tap_vnda_ecommerce:main
+    tap-bling-erp=tap_bling_erp:main
     """,
-    packages=["tap_vnda_ecommerce"],
+    packages=["tap_bling_erp"],
     package_data = {
-        "schemas": ["tap_vnda_ecommerce/schemas/*.json"]
+        "schemas": ["tap_bling_erp/schemas/*.json"]
     },
     include_package_data=True,
 )
